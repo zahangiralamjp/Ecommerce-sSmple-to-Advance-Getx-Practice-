@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_demo_ecommerce/product_list_page.dart';
 import 'package:get/get.dart';
-import 'product_list_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,11 +11,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Ecommerce App',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: ProductListScreen(),
+      title: 'E-commerce App',
+      home: ProductListPage(),
     );
   }
 }

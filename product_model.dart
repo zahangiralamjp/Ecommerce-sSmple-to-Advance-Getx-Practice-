@@ -1,13 +1,8 @@
+// Product Model
 class Product {
-  final int id;
-  final String name;
-  final double price;
-  final String imageUrl;
+  String name;
+  double price;
+  String category;
 
-  Product({
-    required this.id,
-    required this.name,
-    required this.price,
-    required this.imageUrl,
-  });
+  Product({required this.name, required this.price, required this.category});
 }
